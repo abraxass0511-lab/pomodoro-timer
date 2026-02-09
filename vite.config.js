@@ -3,6 +3,6 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: './', // Using relative path for deployment flexibility
+  base: './', // Using relative path for safest deployment
   plugins: [react()],
 })
