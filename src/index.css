@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #ff69b4;
+  /* Hot Pink */
+  --color-secondary: #f472b6;
+  /* Soft Pink */
+  --color-accent: #fbbf24;
+  /* Amber/Gold */
+  --color-dark: #2d1b2e;
+  /* Deep Purple/Pink Dark */
+  --color-surface: #4a2b3e;
+  /* Lighter Purple/Pink Dark */
+}
+
+body {
+  @apply bg-[#2d1b2e] text-pink-100 font-sans antialiased;
+}
